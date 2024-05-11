@@ -82,7 +82,6 @@ RUN pip install -r requirements.txt
 
 # Command to run the FastAPI application
 CMD ["uvicorn", "main:app", "--host", "0.0.0.0", "--port", "8000"]
-```
 
 ## Usage
 
@@ -96,7 +95,3 @@ This project is licensed under the GNU General Public License (GPL). You are fre
 ## Contributing
 
 Contributions are welcome! Please fork the repository and submit a pull request with your enhancements or bug fixes.
-
----
-
-Feel free to adjust and expand upon this README as needed. Let me know if there's anything else I can assist you with!
